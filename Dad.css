@@ -1,0 +1,56 @@
+body
+{
+    margin:0px;
+    background: linear-gradient(to left bottom,lightblue,lightpink,lightblue);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container
+{
+    background-color: rgba(255,255,255,.3);   /* gives glassy look */
+    padding:20px;
+    box-shadow:0  6px 10px;
+    border-radius:15px;
+    width:50%;
+    text-align: center;
+}
+
+.headd
+{
+    text-shadow: 3px 3px 3px rgba(0,0,0,.3);  
+    color:green;
+    font-weight: 200;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:2px;
+}
+
+.joke
+{
+    font-size:25px;
+    font-weight:500;
+    margin:40px;
+    color:green;
+}
+
+.btn
+{
+ font-size:18px;
+ font-weight:700;
+ border-radius:5px;
+ cursor: pointer;
+ padding:10px;
+ text-transform: uppercase;
+ background-color: rgba(255,255,255,.3); /* gives glassy look */
+ border-color: rgba(255,255,255,.6); /* gives glassy look */
+ width:300px;
+ color:darkgreen
+}
+
+.btn:hover
+{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+}
